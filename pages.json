@@ -27,6 +27,18 @@
       }
     }
   ],
+  "subPackages": [{
+    "root": "subpkg",
+    "pages": [{
+      "path": "goods_detail/goods_detail"
+    }]
+  }],
+  // "subPackages": [{
+  //   "root": "subpkg",
+  //   "pages": [{
+  //     "path": "goods_detail/goods_detail"
+  //   }, ]
+  // }],
   "tabBar": {
     "list": [{
         "text": "首页",
