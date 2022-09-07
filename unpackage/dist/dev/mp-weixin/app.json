@@ -9,15 +9,17 @@
     {
       "root": "subpkg",
       "pages": [
-        "goods_detail/goods_detail"
+        "goods_detail/goods_detail",
+        "goods_list/goods_list"
       ]
     }
   ],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "黑马优购",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
+    "navigationBarBackgroundColor": "#c00000",
+    "backgroundColor": "#F8F8F8",
+    "ignoreDevUnusedFiles": false
   },
   "tabBar": {
     "list": [
@@ -48,5 +50,8 @@
     ],
     "selectedColor": "#c00000"
   },
-  "usingComponents": {}
+  "usingComponents": {
+    "van-button": "/wxcomponents/vant/button/index",
+    "van-card": "/wxcomponents/vant/card/index"
+  }
 }

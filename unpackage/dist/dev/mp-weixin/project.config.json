@@ -6,6 +6,7 @@
   },
   "setting": {
     "urlCheck": false,
+    "es6": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -16,7 +17,24 @@
   "libVersion": "2.26.0",
   "appid": "wx4bd63b9d7c375222",
   "projectname": "hmug",
-  "condition": {},
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": -1,
+      "list": []
+    }
+  },
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2

@@ -12,4 +12,11 @@ toast.err = function(title, duration = 3000) {
     duration
   })
 }
+toast.loading = function(title, duration = 3000) {
+  uni.showToast({
+    title: '加载中...',
+    icon: 'loading',
+    duration
+  })
+}
 export default toast

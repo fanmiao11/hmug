@@ -3,5 +3,18 @@
   "projectname": "hmug",
   "setting": {
     "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "商品列表",
+          "pathName": "subpkg/goods_list/goods_list",
+          "query": "query=登山包",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
   }
 }
